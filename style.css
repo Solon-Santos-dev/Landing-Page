@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* /\ ISSO É ALGO QUE SEMPRE TEMOS QUE FAZER - Por os navegadores que trabalhos vem com elementos padrões que precisam ser
+retirados. Aqui nós tiramos a margem, qualquer preenchimento padrão da página, definimos o box-sizin que:faz com que o 
+navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura. Com isso o content-box 
+terá as dimensões únicas que nós damos para ele.*/
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex; /*Quando vamos utilizar FlexBox precisamos dessa linha de código para especificar*/
+    flex-direction: row; /*Especificamos a direção dos elementos da página, nesse caso seria na horizontal*/
+    align-items: center; /*O nome do elemento já sugere o que é feito, alinhamos os itens de maneira cetral*/
+    justify-content: space-around; /* Já com este nós damos um espaço entre os elementos e da borda, muito utilizado*/
+    padding: 24px; /*Espaço entre o elemento e "sua própria caixa", já o margin é o espaço do mesmo em relação à borda*/ 
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif; /*Usamos o Google fonts para importar essas fontes diferentes.*/
+    color: #FFF2E7;
+    font-weight: 400px; /*Quanto maior o peso da fonte, mais em negrito ela fica.*/
+    font-size: 18px; 
+    /*Essas 4 informações são basicamente as mais relevantes que precisam ser alteradas nesse código para a estilização*/
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;   
+}
+
+.conteudo-principal {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    color:#FFF2E7;
+    font-weight: 400px;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    
+}
+

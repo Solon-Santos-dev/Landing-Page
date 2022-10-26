@@ -1,0 +1,2 @@
+Estou me dedicando a esse projeto agora para desenvolver melhor minhas habilidades com HTML e CSS inicialmente.
+Por meio dessa Landing page, sei que poderei fortalecer o conhecimento em alguns conceitos chave do Desenvolvimento Front-End.
