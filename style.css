@@ -7,8 +7,8 @@
     text-decoration: none;
 }
 
-/* /\ ISSO É ALGO QUE SEMPRE TEMOS QUE FAZER - Por os navegadores que trabalhos vem com elementos padrões que precisam ser
-retirados. Aqui nós tiramos a margem, qualquer preenchimento padrão da página, definimos o box-sizin que:faz com que o 
+/* /\ ISSO É ALGO QUE SEMPRE TEMOS QUE FAZER - Por que os navegadores que trabalhamos vem com elementos padrões que precisam ser
+retirados. Aqui nós tiramos a margem, qualquer preenchimento padrão da página, definimos o box-sizing que:faz com que o 
 navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura. Com isso o content-box 
 terá as dimensões únicas que nós damos para ele.*/
 
@@ -20,7 +20,7 @@ body {
 .cabecalho {
     display: flex; /*Quando vamos utilizar FlexBox precisamos dessa linha de código para especificar*/
     flex-direction: row; /*Especificamos a direção dos elementos da página, nesse caso seria na horizontal*/
-    align-items: center; /*O nome do elemento já sugere o que é feito, alinhamos os itens de maneira cetral*/
+    align-items: center; /*O nome do elemento já sugere o que é feito, alinhamos os itens de maneira central*/
     justify-content: space-around; /* Já com este nós damos um espaço entre os elementos e da borda, muito utilizado*/
     padding: 24px; /*Espaço entre o elemento e "sua própria caixa", já o margin é o espaço do mesmo em relação à borda*/ 
 }
@@ -68,6 +68,67 @@ body {
 }
 
 .conteudo-principal-escrito-subtitulo {
-    
+    font-family: 'Sarala';
+    color:#FFF2E7;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-botao{
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    position: left;
+    width: 180px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo2-ballebot {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.conteudo2-ballebot-funcoes {
+    font-family: 'Sarala';
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+
+.rodape-imagem {
+    height: 48px;
+    display:block;
+    margin: 0 auto;
 }
 
